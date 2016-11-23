@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="10" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<text x="-1" y="-0.3" size="0.508" layer="51">&gt;NAME</text>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="51"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="51"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="51"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<text x="-1.6" y="-0.4" size="0.8128" layer="51">&gt;NAME</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.0014" layer="57"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.0014" layer="57"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.0014" layer="57"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.0014" layer="57"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.0508" layer="39"/>
+<text x="-1.2" y="-0.3" size="0.6096" layer="51">&gt;NAME</text>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.083" x2="2.473" y2="1.083" width="0.127" layer="51"/>
+<wire x1="2.473" y1="-1.083" x2="-2.473" y2="-1.083" width="0.127" layer="51"/>
+<wire x1="-2.473" y1="-1.083" x2="-2.473" y2="1.083" width="0.127" layer="51"/>
+<wire x1="2.473" y1="1.083" x2="2.473" y2="-1.083" width="0.127" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-2.473" y1="1.083" x2="2.473" y2="1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.083" x2="-2.473" y2="-1.083" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.083" x2="-2.473" y2="1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.083" x2="2.473" y2="-1.083" width="0.0508" layer="39"/>
+<text x="-2" y="-0.5" size="1.016" layer="51">&gt;NAME</text>
+</package>
+<package name="C1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.583" x2="2.473" y2="1.583" width="0.127" layer="51"/>
+<wire x1="2.473" y1="-1.583" x2="-2.473" y2="-1.583" width="0.127" layer="51"/>
+<wire x1="-2.473" y1="-1.583" x2="-2.473" y2="1.583" width="0.127" layer="51"/>
+<wire x1="2.473" y1="1.583" x2="2.473" y2="-1.583" width="0.127" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-2.473" y1="1.583" x2="2.473" y2="1.583" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.583" x2="-2.473" y2="-1.583" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.583" x2="-2.473" y2="1.583" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.583" x2="2.473" y2="-1.583" width="0.0508" layer="39"/>
+<text x="-1.9" y="-0.4" size="1.016" layer="51">&gt;NAME</text>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.0025" layer="57"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.0025" layer="57"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.0025" layer="57"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.0025" layer="57"/>
+</package>
+<package name="OSCON_E12">
+<description>Started as Panasonic_E, pads have been adjusted to match the OS-CON datasheet recommendations (silkscreen has not been adjusted). Added 12mm height to tCAD.
+&lt;br&gt;
+http://industrial.panasonic.com/www-data/pdf/AAB8000/AAB8000CE1.pdf</description>
+<smd name="-" x="-3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<smd name="+" x="3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<wire x1="-4.15" y1="4.15" x2="2.8" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="4.15" x2="4.15" y2="2.8" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="2.8" x2="4.15" y2="-2.8" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="-2.8" x2="2.8" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="1.2" x2="-4.15" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="2.8" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="4.15" x2="4.15" y2="2.8" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="2.8" x2="4.15" y2="1.2" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-1.2" x2="4.15" y2="-2.8" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-2.8" x2="2.8" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-1.2" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<text x="-4.34" y="5.11" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.8" y="-2.225" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.5" y1="-0.45" x2="-1.6" y2="0.45" layer="51"/>
+<rectangle x1="1.6" y1="-0.45" x2="4.5" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+<circle x="0" y="0" radius="4.5" width="0.012" layer="57"/>
+<wire x1="-3.8" y1="-1.2" x2="3.8" y2="-1.2" width="0.127" layer="21" curve="146.325055"/>
+<wire x1="3.8" y1="1.2" x2="-3.8" y2="1.2" width="0.127" layer="21" curve="146.325055"/>
+<text x="-1.8" y="1.585" size="1.27" layer="51">&gt;NAME</text>
+<text x="2" y="-2.5" size="1.4224" layer="21" font="vector">+</text>
+<text x="2" y="-2.5" size="1.4224" layer="51">+</text>
+</package>
+<package name="NICHICON_8X10">
+<description>Started as Panasonic_E, pads have been adjusted to match the Nichicon datasheet recommendations for CR series 8x10 capacitor
+&lt;br&gt;
+http://www.nichicon-us.com/english/products/pdfs/e-cr.pdf</description>
+<wire x1="-4.15" y1="4.15" x2="2.8" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="4.15" x2="4.15" y2="2.8" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="2.8" x2="4.15" y2="-2.8" width="0.1016" layer="51"/>
+<wire x1="4.15" y1="-2.8" x2="2.8" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.1016" layer="51"/>
+<wire x1="-4.15" y1="1.2" x2="-4.15" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="2.8" y2="4.15" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="4.15" x2="4.15" y2="2.8" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="2.8" x2="4.15" y2="1.2" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-1.2" x2="4.15" y2="-2.8" width="0.1016" layer="21"/>
+<wire x1="4.15" y1="-2.8" x2="2.8" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="-4.15" x2="-4.15" y2="-4.15" width="0.1016" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-1.2" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<smd name="+" x="3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<text x="-4.34" y="5.11" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.8" y="-2.225" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.5" y1="-0.45" x2="-1.6" y2="0.45" layer="51"/>
+<rectangle x1="1.6" y1="-0.45" x2="4.5" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+<circle x="0" y="0" radius="4.5" width="0.01" layer="57"/>
+<wire x1="-3.8" y1="-1.2" x2="3.8" y2="-1.2" width="0.127" layer="21" curve="146.325055"/>
+<wire x1="3.8" y1="1.2" x2="-3.8" y2="1.2" width="0.127" layer="21" curve="146.325055"/>
+<text x="-1.8" y="1.585" size="1.27" layer="51">&gt;NAME</text>
+<text x="2" y="-2.5" size="1.4224" layer="21" font="vector">+</text>
+<text x="2" y="-2.5" size="1.4224" layer="51">+</text>
+</package>
+<package name="C5B5">
+<description>Through hole polarized cap 5.0mm spacing</description>
+<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="2.286" x2="-3.683" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-2.54" x2="3.429" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.683" y1="-2.286" x2="3.683" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.54" x2="-3.429" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.54" x2="3.683" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.429" y1="-2.54" x2="3.683" y2="-2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="-2.286" x2="-3.429" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="2.286" x2="-3.429" y2="2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="-3.04" y="2.044" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.04" y="-3.036" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.35" y="-1.27" size="1.778" layer="21">+</text>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+</package>
+<package name="R0402">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<text x="-1" y="-0.3" size="0.5008" layer="51">&gt;NAME</text>
+</package>
+<package name="PA7">
+<description>&lt;b&gt; Murata Inrush Current Limitor PA7 Package 5mm spacing 7mm diameter &lt;/b&gt; &lt;br&gt;
+&lt;br&gt;
+http://www.murata.com/products/catalog/pdf/r44e.pdf</description>
+<pad name="P$1" x="-2.5" y="0.6" drill="0.9"/>
+<pad name="P$2" x="2.5" y="-0.6" drill="0.9"/>
+<text x="-2.5" y="-0.5" size="1.27" layer="51">&gt;NAME</text>
+<text x="-1.5" y="2.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<polygon width="0.2032" layer="1">
+<vertex x="2.4" y="-1.2"/>
+<vertex x="1.7" y="-1.2" curve="-180"/>
+<vertex x="1.9" y="0"/>
+<vertex x="2.6" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="-1.9" y="0"/>
+<vertex x="-2.6" y="0" curve="-180"/>
+<vertex x="-2.4" y="1.2"/>
+<vertex x="-1.7" y="1.2" curve="-180"/>
+</polygon>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.127" layer="21" curve="180"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.127" layer="21" curve="180"/>
+<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.127" layer="51" curve="180"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.127" layer="51" curve="180"/>
+<wire x1="-2.5" y1="-2" x2="2.5" y2="-2" width="0.015" layer="57"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.015" layer="57"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.015" layer="57" curve="180"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.015" layer="57" curve="180"/>
+</package>
+<package name="NTCLE">
+<description>&lt;b&gt; NTC Thermistors, Radial Leaded, 0.1 Inch Pitch &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+http://www.vishay.com/docs/29048/ntcle203.pdf</description>
+<pad name="1" x="0" y="-1.27" drill="0.6" diameter="1.27"/>
+<pad name="2" x="0" y="1.27" drill="0.6" diameter="1.27"/>
+<wire x1="-1.524" y1="-1.27" x2="1.524" y2="-1.27" width="0.127" layer="21" curve="134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.127" layer="21" curve="-134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="-1.27" width="0.009" layer="57"/>
+<wire x1="1.524" y1="1.27" x2="1.524" y2="-1.27" width="0.009" layer="57"/>
+<wire x1="-1.524" y1="-1.27" x2="1.524" y2="-1.27" width="0.009" layer="57" curve="134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.009" layer="57" curve="-134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.524" y1="1.27" x2="1.524" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="1.524" y2="-1.27" width="0.127" layer="21" curve="134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.127" layer="21" curve="-134.76027"/>
+<text x="0.5" y="-1.5" size="1.016" layer="51" rot="R90">&gt;NAME</text>
+<text x="-2" y="-2" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="-1.524" y1="-1.27" x2="1.524" y2="-1.27" width="0.127" layer="51" curve="134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.127" layer="51" curve="-134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.524" y1="1.27" x2="1.524" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="-1.27" x2="1.524" y2="-1.27" width="0.127" layer="51" curve="134.76027"/>
+<wire x1="-1.524" y1="1.27" x2="1.524" y2="1.27" width="0.127" layer="51" curve="-134.76027"/>
+</package>
+<package name="R1206">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.083" x2="2.473" y2="1.083" width="0.127" layer="51"/>
+<wire x1="2.473" y1="1.083" x2="2.473" y2="-1.083" width="0.127" layer="51"/>
+<wire x1="2.473" y1="-1.083" x2="-2.473" y2="-1.083" width="0.127" layer="51"/>
+<wire x1="-2.473" y1="-1.083" x2="-2.473" y2="1.083" width="0.127" layer="51"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<wire x1="-2.473" y1="1.083" x2="2.473" y2="1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.083" x2="2.473" y2="-1.083" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.083" x2="-2.473" y2="-1.083" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.083" x2="-2.473" y2="1.083" width="0.0508" layer="39"/>
+<text x="-2" y="-0.5" size="1.016" layer="51">&gt;NAME</text>
+</package>
+<package name="PWR163">
+<description>&lt;b&gt; PWR163 DPak (TO-252-3)&lt;/b&gt;&lt;br&gt;
+Note this package is listed as a DPak but is larger than the standard DPak but smaller than the D2Pak &lt;br&gt;
+http://www.bourns.com/data/global/pdfs/PWR163.pdf</description>
+<wire x1="4.665" y1="-4.065" x2="4.665" y2="4.065" width="0.254" layer="51"/>
+<wire x1="4.665" y1="4.065" x2="-2.575" y2="4.065" width="0.254" layer="51"/>
+<wire x1="-3.555" y1="2.5" x2="-3.555" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="-3.555" y1="-2.5" x2="-2.575" y2="-3.175" width="0.254" layer="51"/>
+<wire x1="-2.575" y1="-4.065" x2="4.665" y2="-4.065" width="0.254" layer="51"/>
+<wire x1="-2.575" y1="-4.065" x2="-2.575" y2="-3.175" width="0.254" layer="51"/>
+<smd name="3" x="7.94" y="2.54" dx="3.81" dy="1.62" layer="1"/>
+<smd name="1" x="7.94" y="-2.54" dx="3.81" dy="1.62" layer="1"/>
+<smd name="4" x="0" y="0" dx="8.51" dy="7.87" layer="1" thermals="no" cream="no"/>
+<text x="-4.771" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2.575" y1="-3.175" x2="-2.575" y2="3.175" width="0.254" layer="51"/>
+<wire x1="-2.575" y1="3.175" x2="-2.575" y2="4.065" width="0.254" layer="51"/>
+<wire x1="-3.555" y1="2.5" x2="-2.575" y2="3.175" width="0.254" layer="51"/>
+<rectangle x1="4.665" y1="1.905" x2="8.255" y2="3.175" layer="51"/>
+<rectangle x1="4.665" y1="-3.175" x2="8.255" y2="-1.905" layer="51"/>
+<rectangle x1="4.665" y1="1.905" x2="5.8" y2="3.175" layer="21"/>
+<rectangle x1="4.665" y1="-3.175" x2="5.8" y2="-1.905" layer="21"/>
+<wire x1="4.665" y1="-4.065" x2="4.665" y2="4.065" width="0.254" layer="21"/>
+<wire x1="4.665" y1="4.065" x2="-2.575" y2="4.065" width="0.0028" layer="57"/>
+<wire x1="-3.555" y1="2.5" x2="-3.555" y2="-2.5" width="0.0028" layer="57"/>
+<wire x1="-3.555" y1="-2.5" x2="-2.575" y2="-3.175" width="0.0028" layer="57"/>
+<wire x1="-2.575" y1="-4.065" x2="4.665" y2="-4.065" width="0.0028" layer="57"/>
+<wire x1="-2.575" y1="-4.065" x2="-2.575" y2="-3.175" width="0.0028" layer="57"/>
+<wire x1="-2.575" y1="3.175" x2="-2.575" y2="4.065" width="0.0028" layer="57"/>
+<wire x1="-3.555" y1="2.5" x2="-2.575" y2="3.175" width="0.0028" layer="57"/>
+<wire x1="4.665" y1="-4.065" x2="4.665" y2="4.065" width="0.0028" layer="57"/>
+<text x="-2.54" y="5.08" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.27" layer="51" rot="R90">&gt;NAME</text>
+<rectangle x1="-3.75" y1="0.25" x2="-0.25" y2="3.5" layer="31"/>
+<rectangle x1="0.25" y1="0.25" x2="3.75" y2="3.5" layer="31"/>
+<rectangle x1="0.25" y1="-3.5" x2="3.75" y2="-0.25" layer="31"/>
+<rectangle x1="-3.75" y1="-3.5" x2="-0.25" y2="-0.25" layer="31"/>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.0508" layer="39"/>
+<text x="-1.3" y="-0.3" size="0.6096" layer="51">&gt;NAME</text>
+</package>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.127" layer="51"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.127" layer="51"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.127" layer="51"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.127" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<text x="-1.5" y="-0.4" size="0.8128" layer="51">&gt;NAME</text>
+</package>
+<package name="R2512">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.127" layer="51"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.127" layer="51"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.127" layer="51"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.127" layer="51"/>
+<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<text x="-2.84" y="2.305" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<text x="-2.44" y="-0.695" size="1.27" layer="51">&gt;NAME</text>
+<wire x1="-1.524" y1="1.524" x2="1.524" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-1.524" x2="1.524" y2="-1.524" width="0.127" layer="21"/>
+</package>
+<package name="TO126V">
+<description>TO-126-2 power package</description>
+<wire x1="-5.08" y1="2.032" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="5.08" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-2.032" x2="5.08" y2="-2.032" width="0.2032" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="1.1" diameter="2.54"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="2.54"/>
+<text x="-7.62" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.985" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="C_US">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202"/>
+<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373024"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="C_POL">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="NTC">
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="-3.048" x2="-1.651" y2="-3.048" width="0.1524" layer="94"/>
+<text x="2.032" y="-0.2794" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.667" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="PTC">
+<description>Positive Temperature Coefficient resistor</description>
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-3.048" x2="-1.905" y2="-3.048" width="0.1524" layer="94"/>
+<text x="2.032" y="-0.2794" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.667" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="-2.54" y1="-2.286" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="R_US_GND">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="4.318" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="R_US">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C" prefix="C" uservalue="yes">
+<description>Generic Capacitor</description>
+<gates>
+<gate name="G$1" symbol="C_US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_0.022UF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM155R71H223KA12J"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="0.022uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_0.033UF_16V">
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL05B333KO5NNNC"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="0.033uF 10%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="_0.039UF_16V">
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL05B393KO5NNNC"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="0.039uF 10%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="_0.056UF_10V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM155R71A563KA01D"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="0.056uF 10%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
+<technology name="_0.1UF_50V">
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1005X5R1H104K050BB"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="0.1uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_10000PF_50V">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="CC0402KRX7R9BB103"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="10000pF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_1000PF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM155R71H102KA01D"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="1000pF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_100PF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM1555C1H101JA01D"/>
+<attribute name="RATING" value="NP0"/>
+<attribute name="VALUE" value="100pF 5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_16PF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM1555C1H160JA01D"/>
+<attribute name="RATING" value="NP0"/>
+<attribute name="VALUE" value="16pF 5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_5.1PF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM1555C1H5R1CA01D"/>
+<attribute name="RATING" value="NP0"/>
+<attribute name="VALUE" value="5.1pF 5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_6800PF_50V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM155R71H682KA88D"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="6800pF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_10UF_16V">
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL21A106KOQNNNE"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="10uF 10%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="_10UF_35V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM21BR6YA106KE43L"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="10uF 10%"/>
+<attribute name="VOLTAGE" value="35V"/>
+</technology>
+<technology name="_2.2UF_50V">
+<attribute name="MF" value="Taiyo Yuden"/>
+<attribute name="MPN" value="UMK212BB7225KG-T"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="2.2uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_4.7UF_50V">
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL21A475KBQNNNE"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="4.7uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_0.1UF_50V">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R9BB104"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="0.1uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_10000PF_100V">
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1608X7R2A103K080AA"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="10000pF 10%"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="_10UF_6.3V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J106ME47J"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="10uF 20%"/>
+<attribute name="VOLTAGE" value="6.3V"/>
+</technology>
+<technology name="_1UF_50V">
+<attribute name="MF" value="Taiyo Yuden"/>
+<attribute name="MPN" value="UMK107BJ105KA-T"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="1uF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="_2.2UF_6.3V">
+<attribute name="MF" value="Taiyo Yuden"/>
+<attribute name="MPN" value="JMK107BJ225KAHT"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="2.2uF 10%"/>
+<attribute name="VOLTAGE" value="6.3V"/>
+</technology>
+<technology name="_4.7UF_6.3V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J475KE19D"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="4.7uF 10%"/>
+<attribute name="VOLTAGE" value="6.3V"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_1000PF_1KV">
+<attribute name="MF" value="Johanson Dielectrics"/>
+<attribute name="MPN" value="202R18W102KV4E"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="1000pf"/>
+<attribute name="VOLTAGE" value="1kV"/>
+</technology>
+<technology name="_1000PF_2KV">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="1206GC102KAT1A"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="1000pf"/>
+<attribute name="VOLTAGE" value="2kV"/>
+</technology>
+<technology name="_4700PF_1KV">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM31BR73A472KW01L"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="4700pF"/>
+<attribute name="VOLTAGE" value="1kV"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RATING" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_2.2UF_100V">
+<attribute name="MF" value="Taiyo Yuden"/>
+<attribute name="MPN" value="HMK325B7225KN-T"/>
+<attribute name="RATING" value="X7R"/>
+<attribute name="VALUE" value="2.2uF 10%"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="_47UF_16V">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM32ER61C476ME15L"/>
+<attribute name="RATING" value="X5R"/>
+<attribute name="VALUE" value="47uF 20%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C_POL" prefix="C" uservalue="yes">
+<description>Generic Polarized Capacitors</description>
+<gates>
+<gate name="G$1" symbol="C_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_OSCON_E12" package="OSCON_E12">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RIPPLE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_50SVPF39M">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="50SVPF39M"/>
+<attribute name="RIPPLE" value="3.8A"/>
+<attribute name="VALUE" value="39uF 20%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+</technologies>
+</device>
+<device name="_NICHICON_8X10" package="NICHICON_8X10">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="RIPPLE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_PCR1J390MCL1GS">
+<attribute name="MF" value="Nichicon"/>
+<attribute name="MPN" value="PCR1J390MCL1GS"/>
+<attribute name="RIPPLE" value="2.7A"/>
+<attribute name="VALUE" value="39uF 20%"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+<technology name="_PCV1J390MCL2GS">
+<attribute name="MF" value="Nichicon"/>
+<attribute name="MPN" value="PCV1J390MCL2GS"/>
+<attribute name="RIPPLE" value="3.4A"/>
+<attribute name="VALUE" value="39uF 20%"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="C5B5">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="RIPPLE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="_330UF_50V">
+<attribute name="MF" value="UNITED CHEMICON"/>
+<attribute name="MPN" value="EKZE500ELL331MJ25S"/>
+<attribute name="RIPPLE" value="1.87A" constant="no"/>
+<attribute name="VALUE" value="330uF 20%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTC" prefix="RT" uservalue="yes">
+<description>&lt;b&gt; NTC Thermistor / Inrush Current Limiter &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="B25_50" value="" constant="no"/>
+<attribute name="B_TOLERANCE" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="R_TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_10K_1%_1%_3380K">
+<attribute name="B25_50" value="3380K"/>
+<attribute name="B_TOLERANCE" value="1%"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="NCP15XH103F03RC"/>
+<attribute name="R_TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-PA7" package="PA7">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CURRENT" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REVIEW" value="" constant="no"/>
+<attribute name="TESTED" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_16OHM_1.2A">
+<attribute name="CURRENT" value="1.2A"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="NTPA7160LBMB0"/>
+<attribute name="REVIEW" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="16"/>
+</technology>
+</technologies>
+</device>
+<device name="-NTCLE" package="NTCLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="B_TOLERANCE" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REVIEWED" value="" constant="no"/>
+<attribute name="R_TOLERANCE" value="" constant="no"/>
+<attribute name="TESTED" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100K_2%__4190K">
+<attribute name="B_TOLERANCE" value="1.5%"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="NTCLE203E3104GB0"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="R_TOLERANCE" value="2%"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="100K"/>
+</technology>
+<technology name="_10K_2%_0.75%_3977K">
+<attribute name="B_TOLERANCE" value="0.75%"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="NTCLE203E3103GB0"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="R_TOLERANCE" value="2%"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTC" prefix="R" uservalue="yes">
+<description>Positive Coefficient Resistor</description>
+<gates>
+<gate name="G$1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REVIEWED" value="" constant="no"/>
+<attribute name="TESTED" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_R050A">
+<attribute name="MF" value="Bel Fuse"/>
+<attribute name="MPN" value="0ZCJ0005FF2E"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="50mA"/>
+</technology>
+<technology name="_R160A">
+<attribute name="MF" value="Bel Fuse"/>
+<attribute name="MPN" value="0ZCJ0016FF2E"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="160mA"/>
+</technology>
+<technology name="_R350A">
+<attribute name="MF" value="Bel Fuse"/>
+<attribute name="MPN" value="0ZCJ0035AF2E"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PWR163S" prefix="R" uservalue="yes">
+<description>DPAK Power Resistors&lt;br&gt;
+25W, 5%</description>
+<gates>
+<gate name="G$1" symbol="R_US_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PWR163">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="REVIEWED" value="" constant="no"/>
+<attribute name="TESTED" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="-25-2R00J">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="PWR163S-25-2R00J"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="2"/>
+</technology>
+<technology name="-25-R020J">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="PWR163S-25-R020J"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value=".020" constant="no"/>
+</technology>
+<technology name="_10_1%_25W">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="PWR163S-25-10R0F"/>
+<attribute name="REVIEWED" value="NO" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R" prefix="R" uservalue="yes">
+<description>Generic Resistor</description>
+<gates>
+<gate name="G$1" symbol="R_US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_0.0_1.1A">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTJ000"/>
+<attribute name="VALUE" value="0R0"/>
+</technology>
+<technology name="_1.0_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTFL1R00"/>
+<attribute name="VALUE" value="1R0"/>
+</technology>
+<technology name="_100K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF1003"/>
+<attribute name="VALUE" value="100K"/>
+</technology>
+<technology name="_10K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF1002"/>
+<attribute name="VALUE" value="10K"/>
+</technology>
+<technology name="_10M_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710ML"/>
+<attribute name="VALUE" value="10M"/>
+</technology>
+<technology name="_10_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF10R0"/>
+<attribute name="VALUE" value="10"/>
+</technology>
+<technology name="_110K_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07110KL"/>
+<attribute name="VALUE" value="110K"/>
+</technology>
+<technology name="_11K8_1%">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-2RKF1182X"/>
+<attribute name="VALUE" value="11K8"/>
+</technology>
+<technology name="_140K_1%">
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="RC1005F1403CS"/>
+<attribute name="VALUE" value="140K"/>
+</technology>
+<technology name="_15K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF1502"/>
+<attribute name="VALUE" value="15K"/>
+</technology>
+<technology name="_160K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF1603"/>
+<attribute name="VALUE" value="160K"/>
+</technology>
+<technology name="_1K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF1001"/>
+<attribute name="VALUE" value="1K"/>
+</technology>
+<technology name="_210K_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07210KL"/>
+<attribute name="VALUE" value="210K"/>
+</technology>
+<technology name="_220_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF2200"/>
+<attribute name="VALUE" value="220"/>
+</technology>
+<technology name="_24K9_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF2492"/>
+<attribute name="VALUE" value="24K9"/>
+</technology>
+<technology name="_2K2_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF2201"/>
+<attribute name="VALUE" value="2K2"/>
+</technology>
+<technology name="_2K87_1%">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-2RKF2871X"/>
+<attribute name="VALUE" value="2K87"/>
+</technology>
+<technology name="_33K_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0733KL"/>
+<attribute name="VALUE" value="33K"/>
+</technology>
+<technology name="_33_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF33R0"/>
+<attribute name="VALUE" value="33"/>
+</technology>
+<technology name="_365K_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07365KL"/>
+<attribute name="VALUE" value="365K"/>
+</technology>
+<technology name="_4.7_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTFL4R70"/>
+<attribute name="VALUE" value="4R7"/>
+</technology>
+<technology name="_4.7_5%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402JR-074R7L"/>
+<attribute name="VALUE" value="4R7"/>
+</technology>
+<technology name="_4.99K_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-074K99L"/>
+<attribute name="VALUE" value="4K99"/>
+</technology>
+<technology name="_49.9K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF-4992"/>
+<attribute name="VALUE" value="49.9K"/>
+</technology>
+<technology name="_49.9_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF49R9"/>
+<attribute name="VALUE" value="49R9"/>
+</technology>
+<technology name="_4K42_1%">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-2RKF4421X"/>
+<attribute name="VALUE" value="4K42"/>
+</technology>
+<technology name="_4K87_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF4871"/>
+<attribute name="VALUE" value="4K87"/>
+</technology>
+<technology name="_53K6_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF5362"/>
+<attribute name="VALUE" value="53K6"/>
+</technology>
+<technology name="_68K1_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0768K1L"/>
+<attribute name="VALUE" value="68K1"/>
+</technology>
+<technology name="_750_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07750RL"/>
+<attribute name="VALUE" value="750"/>
+</technology>
+<technology name="_75_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0775RL"/>
+<attribute name="VALUE" value="75"/>
+</technology>
+<technology name="_78K7_1%">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-2RKF7872X"/>
+<attribute name="VALUE" value="78K7"/>
+</technology>
+<technology name="_8.06K_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR01MRTF8061"/>
+<attribute name="VALUE" value="8K06"/>
+</technology>
+<technology name="_80K6_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0780K6L"/>
+<attribute name="VALUE" value="80K6"/>
+</technology>
+<technology name="_95K3_1%">
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0795K3L"/>
+<attribute name="VALUE" value="95K3"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_10K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF1002"/>
+<attribute name="VALUE" value="10K"/>
+</technology>
+<technology name="_120_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF1200"/>
+<attribute name="VALUE" value="120"/>
+</technology>
+<technology name="_120_5%">
+<attribute name="DEPRECATED" value="USE _120_1%"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTJ120"/>
+<attribute name="VALUE" value="120"/>
+</technology>
+<technology name="_15K_0.1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Susumu"/>
+<attribute name="MPN" value="RG1608P-153-B-T5"/>
+<attribute name="VALUE" value="15K 0.1%"/>
+</technology>
+<technology name="_15K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF1502"/>
+<attribute name="VALUE" value="15K"/>
+</technology>
+<technology name="_165K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF1653"/>
+<attribute name="VALUE" value="165K"/>
+</technology>
+<technology name="_1K_0.1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Susumu"/>
+<attribute name="MPN" value="RG1608P-102-B-T5"/>
+<attribute name="VALUE" value="1K 0.1%"/>
+</technology>
+<technology name="_1K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF1001"/>
+<attribute name="VALUE" value="1K"/>
+</technology>
+<technology name="_220_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF2200"/>
+<attribute name="VALUE" value="220"/>
+</technology>
+<technology name="_24K9_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF2492"/>
+<attribute name="VALUE" value="24K9"/>
+</technology>
+<technology name="_2K2_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF2201"/>
+<attribute name="VALUE" value="2K2"/>
+</technology>
+<technology name="_340K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF3403"/>
+<attribute name="VALUE" value="340K"/>
+</technology>
+<technology name="_49.9_1%_0603">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF49R9"/>
+<attribute name="VALUE" value="49R9"/>
+</technology>
+<technology name="_4K87_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF4871"/>
+<attribute name="VALUE" value="4K87"/>
+</technology>
+<technology name="_53K6_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF5362"/>
+<attribute name="VALUE" value="53K6"/>
+</technology>
+<technology name="_720_5%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTJ750"/>
+<attribute name="VALUE" value="750"/>
+</technology>
+<technology name="_75_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0775RL"/>
+<attribute name="VALUE" value="75"/>
+</technology>
+<technology name="_953K_1%">
+<attribute name="DEPRECATED" value="" constant="no"/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR03ERTF9533"/>
+<attribute name="VALUE" value="953K"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="0.02_1%">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRF0805-FX-R020ELF"/>
+<attribute name="VALUE" value="0.02"/>
+</technology>
+<technology name="_0.008_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="PMR10EZPFU8L00"/>
+<attribute name="VALUE" value="0.008"/>
+</technology>
+<technology name="_0.100_1%">
+<attribute name="MF" value="Rohm"/>
+<attribute name="MPN" value="MCR10EZHFLR100"/>
+<attribute name="VALUE" value="0.100"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_0.003_1%">
+<attribute name="MF" value="Stackpole Electronics"/>
+<attribute name="MPN" value="CSNL1206FT3L00"/>
+<attribute name="VALUE" value=".003"/>
+</technology>
+<technology name="_0.004_1%">
+<attribute name="MF" value="Riedon"/>
+<attribute name="MPN" value="CSR1206-0R004F1"/>
+<attribute name="VALUE" value="0.004"/>
+</technology>
+<technology name="_0.005_1%">
+<attribute name="MF" value="Riedon"/>
+<attribute name="MPN" value="CSR1206-0R005F1"/>
+<attribute name="VALUE" value="0.005"/>
+</technology>
+<technology name="_0.01_1%">
+<attribute name="MF" value="TT Electronics"/>
+<attribute name="MPN" value="LRMAM1206-R01FT5"/>
+<attribute name="VALUE" value="0.01"/>
+</technology>
+<technology name="_0.03_1%">
+<attribute name="MF" value="TT Electronics"/>
+<attribute name="MPN" value="LRMAM1206-R03FT5"/>
+<attribute name="VALUE" value="0.03"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512" package="R2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_0.002_1%">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRE2512-FZ-R002E-3"/>
+<attribute name="POWER" value="3W"/>
+<attribute name="VALUE" value="0.002"/>
+</technology>
+<technology name="_0.003_1%">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRE2512-FZ-R003E-2"/>
+<attribute name="POWER" value="2W"/>
+<attribute name="VALUE" value="0.003"/>
+</technology>
+<technology name="_0.004_1%">
+<attribute name="MF" value="Riedon"/>
+<attribute name="MPN" value="CSR2512B0R004F"/>
+<attribute name="POWER" value="2.5W"/>
+<attribute name="VALUE" value="0.004"/>
+</technology>
+<technology name="_0.005_1%">
+<attribute name="MF" value="TT Electronics"/>
+<attribute name="MPN" value="LRMAM2512-R005FT4"/>
+<attribute name="POWER" value="2W"/>
+<attribute name="VALUE" value="0.005"/>
+</technology>
+<technology name="_0.015_1%">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRA2512-FZ-R015ELF"/>
+<attribute name="POWER" value="3W"/>
+<attribute name="VALUE" value="0.015"/>
+</technology>
+<technology name="_0.075_1%">
+<attribute name="MF" value="Stackpole Electronics"/>
+<attribute name="MPN" value="CSRN2512FK75L0"/>
+<attribute name="POWER" value="2W"/>
+<attribute name="VALUE" value="0.075"/>
+</technology>
+<technology name="_200_5%">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRM2512-JW-201ELF"/>
+<attribute name="POWER" value="2W"/>
+<attribute name="VALUE" value="200"/>
+</technology>
+<technology name="_3.3_16W">
+<attribute name="MF" value="Susumu"/>
+<attribute name="MPN" value="CPA2512Q3R30FS-T10"/>
+<attribute name="POWER" value="16W"/>
+<attribute name="VALUE" value="3.3"/>
+</technology>
+</technologies>
+</device>
+<device name="_T126" package="TO126V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="POWER" value=""/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100_1%">
+<attribute name="MF" value="Caddock"/>
+<attribute name="MPN" value="MP915-100-1%"/>
+<attribute name="POWER" value="15W"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
